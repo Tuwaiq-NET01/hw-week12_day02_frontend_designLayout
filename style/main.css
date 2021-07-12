@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h4 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width:400px;
+}
+li {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 6px;
+}
+body{
+    background-image: linear-gradient(white(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('./images/HeaderBackground1920x1280.jpg');
+    background-repeat: no-repeat;
+}
+.header {
+    background-image: 
+    url('../images/HeaderBackground1920x1280.jpg');
+    height: 100vh;
+    width: 100%;
+}
+.main {
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.content-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#logo {
+    color: red;
+}
+.nav {
+    margin-top:15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.firstHeader {
+    width:500px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.secondHeader {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+ }
+
+.part-services {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1em;
+}
+.introduction {
+    width: 30%;
+    margin: auto;
+    padding: 250px;
+}
+.main-body {
+  display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
