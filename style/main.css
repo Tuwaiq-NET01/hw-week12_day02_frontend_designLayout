@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    height: 100vh;
+    
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background : linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/hbg.jpg');
+    height: 100vh;
+    color: white;
+}
+
+.introduction {
+     text-align: center;
+     position: relative;
+     max-width: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+
+
+}
+
+.introduction  h5 {
+    text-align: left;
+}
+
+.content-header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin: 2%;
+    
+}
+
+#logo {
+    /* float: left; */
+    color: rgb(255, 123, 0);
+}
+
+.navbar{
+    
+    
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+}
+
+.main {
+    width: 100vw;
+    margin-top: 2%;
+}
+
+.container-services {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.main h1, .main .icon  {
+    text-align: center;
+     position: relative;
+     max-width: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.part-service {
+    margin: 2% 2% 5% 2%;
+    text-align: justify;
+}
