@@ -1,0 +1,63 @@
+.content-header{
+color: red;
+display: flex;
+justify-content:flex-start;
+font-size:xx-large;
+background-color: black;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    font-size:small;
+    display: flex;
+    color:  white;
+    background-color: black;
+    list-style: none;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+  .introduction{
+
+    display: flex;
+    color:  white;
+    width: 400px;
+    margin: 20%;
+    margin-right: 50%;
+    margin-left: 30%;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    justify-content:center;
+    align-items:center;
+}
+
+.white{
+    display: flex;
+    background: white;
+    justify-content:center;
+    align-items:center;
+}
+.Part1-Services{
+    display: flex;
+    background: white;
+    justify-content:flex-start;
+    justify-content:space-around;
+    align-items:center;
+}
+.Services-name{
+    display: flex;
+    background: white;
+    justify-content:flex-start;
+    justify-content:space-around ;
+    align-items:center;
+}
+.Services-1{
+    display: flex;
+    background: white;
+    justify-content:flex-start;
+    justify-content:space-around ;
+    align-items:center;    
+}
