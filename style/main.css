@@ -11,11 +11,12 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .welcome{
     width: 500px;
+    color: white;
     align-self: center;
     justify-self: center;
     justify-items: stretch;
@@ -31,7 +32,6 @@
     align-items: center;
 }
 .welcome .wrapper div{
-    border: 1px solid;
     margin: 10px;
     padding: 5px;
 }
@@ -84,8 +84,9 @@
 .part img{
     width: 75px;
 }
-.part p{
-    margin: 10px;
+.part div{
+    text-align: justify;
+    padding: 15px;
 }
 .header-part{
     margin: 5px;
