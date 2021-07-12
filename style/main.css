@@ -1,0 +1,44 @@
+.content-header{
+    background-color: black;
+}
+#logo{
+    color: brown;
+}
+.unorder-list li {
+    color: white;
+    list-style-type: none;
+    flex-direction: row;
+    display:inline;  
+    justify-content: space-between;
+    margin: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: right;
+   
+     
+}
+#service-main{
+    text-align: center;
+}
+.introduction{
+    border-style: solid;
+}
+.part-service{
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    float: left;
+}
+.icon{
+   width: 50px;
+   height: 50px;
+   
+
+}
+.ser{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
