@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+}
+.content-header {
+    font-family: sans-serif;
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.content-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-header ul li{
+   margin: 0px 5px;
+   list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    font-family: sans-serif;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("/images/HeaderBackground1920x1280.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction {
+    color: white;
+    width: 40%;
+    font-size: 1.1em;
+}
+h5{
+    font-weight: normal;
+    margin-top: 15px;
+}
+main {
+    text-align: center;
+    font-family: serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    overflow-wrap: breake-word;
+    margin-bottom: 2em;
+    padding: 0px 15px;
+}
+main h1 {
+    grid-column: span 4;
+    padding: 1.3em;
+    font-size: 2.5em;
+    color: #363636;
+}
+.services-name {
+    font-size: 0.7em;
+    margin-bottom: -2em;
+}
+@media (max-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns:  auto auto;
+    }
+    main h1 {
+        grid-column: span 2;
+    }
+    .introduction {
+        width: 80%;
+    }
+}
