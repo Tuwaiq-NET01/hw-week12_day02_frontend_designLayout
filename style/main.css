@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+
+}
+.header{
+    color: seashell;
+    background: url("../images/HeaderBackground1920x1280.jpg") no-repeat center center ;
+    background-size: cover;
+}
+.content-header{
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.item{
+    margin-left: 10px;
+}
+.introduction{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services{
+    display: flex;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.part-services{
+    flex: 0.25;
+    text-align: center;
+}
+
+.services-contener{
+}
