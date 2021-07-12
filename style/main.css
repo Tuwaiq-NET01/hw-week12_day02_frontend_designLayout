@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../images/HeaderBackground1920x1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+  width: 15%;
+  margin: 10px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+main > h1 {
+    font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-header {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.bg-shadow {
+  background-color: rgba(0, 0, 0, 0.349);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  color: white;
+  z-index: 1;
+}
+
+.introduction h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.introduction h5 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.part-services {
+  width: 20%;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+.services-name {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#logo {
+  color: rgb(223, 73, 73);
+  font-weight: bold;
+  margin-top: 10px;
+}
