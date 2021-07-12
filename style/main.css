@@ -1,0 +1,81 @@
+
+.header
+{
+    background-image: url("../images/pb.jpg");
+    height: 100vh;
+    border-style: solid;
+    border-color: red;
+    
+}
+.content-header
+{
+    border-style: solid;
+    border-color: red;
+    margin:  10px  10px  10px  10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+li 
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.introduction
+{
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    flex-direction: column;
+    margin:  50px 350px 50px 350px;
+}
+ .introduction h1 
+{
+    border-style: solid;
+    border-color: red;
+    margin:  10px 10px 10px 10px;
+
+}
+.introduction h5
+{
+    border-style: solid;
+    border-color: red;
+    margin:  10px 10px 10px 10px;
+} 
+.main h1 
+{
+    text-align: center;
+}
+.boxes
+{
+    display: flex;
+   justify-content: space-around;
+
+}
+.flex-item
+{
+    border-style: solid;
+    border-color: red;
+    height: 450px;
+    width: 300px;
+}
+img 
+{
+    height: 100px;
+    width: 100px;
+    margin:  10px 10px 10px 10px;
+    padding-left: 100px;
+}
+p
+{
+
+    border-style: solid;
+    border-color: red;
+    margin:  10px 10px 10px 10px;
+
+   
+}
