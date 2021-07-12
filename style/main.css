@@ -1,0 +1,66 @@
+html, body, .container, header {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar h1{
+    color: red;
+}
+
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/HeaderBackground1920x1280.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-bar, .nav-right-side, .cards{
+    display: flex;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    color: white;
+    align-self: flex-start;
+}
+
+.nav-right-side div {
+    padding: 5px 10px;
+}
+
+.center-text{
+    color: white;
+    width: 35%;
+}
+
+.center-text p {
+    font-size: 30px;
+}
+
+.center-text h2 {
+    font-size: 50px;
+}
+
+main h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+}
+
+.cards{
+    justify-content: space-around;
+}
+
+.card{
+    text-align: center;
+    width: 450px;
+}
+
+.card p {
+    text-align: left;
+}
