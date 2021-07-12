@@ -1,0 +1,70 @@
+html {
+  background: url('https://raw.githubusercontent.com/Tuwaiq-NET01/hw-week12_day02_frontend_designLayout/main/images/HeaderBackground1920x1280.jpg')
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #121212;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  min-width: fit-content;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 95%;
+  margin: 30px;
+  margin-top: 0px;
+  justify-content: space-between;
+}
+
+.content-header {
+  /* align-self: flex-start; */
+  color: red;
+}
+
+ul {
+  columns: 3;
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+p {
+  width: 300px;
+  text-align: justify;
+}
+
+.main {
+  background-color: white;
+  text-align: center;
+  /* width: 100%; */
+}
+
+.main-title {
+  padding-top: 20px;
+  color: black;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.box-child {
+  margin: 20px;
+}
