@@ -1,0 +1,74 @@
+
+#logo {
+    color:brown;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.content-header {
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.content-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-header ul li{
+   margin: 0px 5px;
+   list-style: none;
+}
+
+
+
+.center {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("/images/HeaderBackground1920x1280.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+* {
+    margin: 0px;
+}
+
+.introduction {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+    overflow-wrap: breake-word;
+    margin-bottom:40px;
+    padding: 10px;
+}
+
+
+main h1 {
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 20px;
+    color: #363636;
+}
+.services-name {
+    font-size: 8px;
+    margin-bottom: -2em;
+}
