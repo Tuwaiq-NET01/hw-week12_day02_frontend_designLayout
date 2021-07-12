@@ -1,0 +1,45 @@
+.container{
+    height: 600px;
+    width: vw;
+    margin: 0px;
+}
+
+header{
+    background-image: url("../images/HeaderBackground1920x1280.jpg");
+    width: 100%;
+    height: 600px;
+    box-shadow: 0px 0px 0px 4000px rgba(27, 61, 88, 0.5) inset;
+}
+
+.content-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+}
+
+ul{
+    float: right;
+    justify-content: space-around;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+
+    width: 300px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
