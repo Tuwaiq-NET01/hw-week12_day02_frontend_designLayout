@@ -1,0 +1,43 @@
+.container{
+    background: wheat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-flow: column;
+}
+.introduction{
+    display: flex;
+    flex-flow: column;
+}
+
+.content-header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.a{
+    display: inline-block;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+}
+.clean{
+    clear: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
