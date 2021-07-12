@@ -1,0 +1,64 @@
+
+.content-header{
+    background-color: black;
+
+}
+#logo{
+    display: flex; 
+    color: red;
+    align-items:flex-start; 
+
+    margin: 2%;
+
+}
+.header-list{
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items:flex-end; 
+    justify-content: space-evenly;
+    color: white;
+
+}
+a {
+     color: white;
+     
+     }
+
+.introduction{
+    color: white;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 15%;
+
+}
+.main-header{
+    display: flex; 
+    justify-content: center;
+    margin: 50%;
+
+}
+.card{
+    display: flex; 
+}
+.image{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items:center; 
+    justify-content: space-around;
+}
+.name{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items:center; 
+    justify-content: space-around;
+}
+.content{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items:center; 
+    justify-content: space-around;
+}
