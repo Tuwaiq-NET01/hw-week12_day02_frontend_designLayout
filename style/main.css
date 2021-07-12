@@ -1,0 +1,63 @@
+.header{
+display: flex;
+color: white;
+flex-wrap: wrap;
+background-image: url("/images/HeaderBackground1920x1280.jpg");
+height: 120vh;
+
+}
+.opcity{
+    filter: brightness(50%);
+    z-index: 1;
+}
+#content-header{
+    display: flex;
+    justify-content: flex-start;
+}
+#logo{
+    color: red;
+    order:0;
+
+}
+#list{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+
+.Introduction{
+    text-align: center;
+    word-wrap: break-word;
+    justify-content: center;
+    align-content: center;
+    margin: 45px;
+ 
+}
+.part-services{
+    display: flex;
+    flex-direction: column;
+
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.services-name{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.services-content{
+    text-align:center;
+    max-width: 250px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 15px;
+}
