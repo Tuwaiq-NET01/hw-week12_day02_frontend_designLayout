@@ -1,0 +1,43 @@
+.nav{
+    color: antiquewhite;
+    display :flex;
+    border: solid;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.logo{
+    color: antiquewhite;
+display: flex;
+flex-direction: row;
+justify-content: right;
+}
+ .list{
+    color: antiquewhite;
+
+display: flex;
+justify-content:space-between;
+ }
+ .Box{
+    color: antiquewhite;
+     margin: 25%;
+     height: 50%;
+     width: 50%;
+ }
+ .page{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+ .col1{
+    color: antiquewhite;
+    flex-direction: row;
+    /* height: 50%;
+    width: 50%; */
+
+ }
