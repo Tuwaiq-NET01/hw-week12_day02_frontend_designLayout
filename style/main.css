@@ -1,6 +1,9 @@
 * {
     margin: 0px;
 }
+#logo {
+    color: #d90f27;
+}
 .content-header {
     font-family: sans-serif;
     justify-content: space-between;
