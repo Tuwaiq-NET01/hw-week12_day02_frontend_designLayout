@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-header{
+    background-image: url(/images/HeaderBackground1920x1280.jpg);
+    background-size: cover;
+    height: 745px;
+    width: 1519px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.nav{
+    height: 50px;
+}
+.list{
+    float: right;
+    flex-direction: row;
+    margin: 5px;
+    padding: 3px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    flex: left;
+    height: 50px;
+    font-size: 33px;
+    font-weight: bolder;
+    color: red;
+}
+
+.color {
+    color:white;
+}
+.text{
+    justify-items: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 300px;
+    color: white;
+}
+
+main{
+    margin-top: 750px;
+    display: inline-block;
+    padding: 0px 15px;
+    flex-direction: row;
+}
+main h1 {
+    margin-left: 440px;
+    grid-column: span 4;
+    padding: 1.3em;
+    font-size: 2.5em;
+    color: #363636;
+}
+
