@@ -1,9 +1,7 @@
 .header{
-display: flex;
 color: white;
-flex-wrap: wrap;
 background-image: url("/images/HeaderBackground1920x1280.jpg");
-height: 120vh;
+height: 100vh;
 
 }
 .opcity{
@@ -12,17 +10,21 @@ height: 120vh;
 }
 #content-header{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    width: 1000px;
 }
 #logo{
     color: red;
-    order:0;
+  margin-left: 48px;
+  padding-top: 25px;
 
 }
 #list{
     display: flex;
-    justify-content:space-around;
+    justify-content:flex-end;
     list-style: none;
+    gap: 12px;
+    margin-right: 25px;
 }
 
 .Introduction{
