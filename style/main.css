@@ -1,0 +1,55 @@
+#header-container{
+ 
+}
+#logo{
+    font-size: 160%;
+    
+}
+#nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    color: red;
+}
+
+.nav-item{
+    
+}
+
+#intro{
+    color:white;
+    margin: auto;
+    display: flex;
+    
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main-container{
+    color:black;
+    margin: auto;
+    display: flex;
+    
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+#services-container{
+    color:black;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
