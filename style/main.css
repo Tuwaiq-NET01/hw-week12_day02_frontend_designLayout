@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    
+}
+
+
+header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/HeaderBackground1920x1280.jpg');
+    height: 100vh;
+}
+
+#logo{
+    margin-left: 50px ;
+    color: darkred;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.content-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 25%;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 100px 250px 100px 250px ;
+}
+
+
+
+/* ====================== */
+
+
+.service{
+    text-align: center;
+}
+
+.services{
+    display: flex;
+}
+
+.part-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
